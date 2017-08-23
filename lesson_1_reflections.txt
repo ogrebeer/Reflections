@@ -1,0 +1,62 @@
+How did viewing a diff between two versions of a file help you see the bug that 
+was introduced?
+   
+It narrowed down the possible places the error could be hiding from anywhere in the new file to only 
+a few lines that havebeen changed.
+
+
+How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+I can easily review the techniques I've used and the errors I've made to make future code more 
+quickly and neatly
+
+
+What do you think are the pros and cons of manually choosing when to create a 
+commit, like you do in Git, vs having versions automatically saved, like Google 
+docs does?
+    
+I have to remember to save, as I do in video games, so when I forget, it hurts A LOT.
+I don't need it to save every time I type a character, so it's less resource intensive to save 
+myself (I can choose what makes a signifon)
+
+
+Why do you think some version control systems, like Git, allow saving multiple 
+files in one commit, while others, like Google Docs, treat each file separately?
+    
+With multiple files, I can commit all relevant changes (one signifon) at once, regardless of which 
+files they occured in.
+
+With individual file systems, we assume files are not interrelated.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log [<options>] [<revision range>] [[\--] <path>...]
+Shows the commit logs.
+
+The command takes options applicable to the git rev-list command to control what is shown and how,
+and options appicable to the git diff-* command to control how the changes each commit introduces 
+are shown.
+
+git diff [options] {many things can go here}
+
+Show changes between the working tree and the index or a tree, changes between the index and a tree,
+changes between two trees, changes between two blob objects, or changes between two files on disk.
+
+git log shows the history of the chosen commit
+git diff shows differences between files; this can be used to show, line by line, differences 
+between pairs of files in the commit history
+
+
+How might using version control make you more confident to make changes that
+could break something?
+    
+If I break something, I can just go back to the previous version.  Also, by looking at the changes
+that broke something, we may be able to find the the part that breaks and improve the code, but not
+in a breaky way
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+    
+the machine learning lessons
