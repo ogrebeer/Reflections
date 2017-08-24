@@ -6,30 +6,41 @@ Makes an empty reporitory in the folder that
 $git init 
 
 was run in.
-If it didn't work this way, then every file on the computer would have to be in the repository as soon as git is installed... unfeasable.
+If it didn't work this way, then every file on the computer would have to be in the repository as 
+soon as git is installed... unfeasable.
 
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+Staging area allows me to control what will be transferred from the working to the repository.  It's 
+a go between in case I have some files that I don't want to add to the repository, but need on my 
+local machine (OS specific stuffs, for example).
 
+This also allows me to control when files are commited if I'm making the repository well after I 
+should have.
 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-
+Even if I have multiple files that have changed in a group of logical changes, I don't have to 
+commit them all at once.  On the other hand, if I've changed one file for more than one logical 
+change, I can't exactly unchange the different parts...
 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-
+When I'm experimenting with some code (a different way of doing things or a new technique) or when a 
+different version is needed (like a different language version), these branches let me do these, 
+and, hopefully, revert back to the master branch easily when the main code needs editing.
 
 
 How do the diagrams help you visualize the branch structure?
 
-
+Rather than having to make a mental image, I get to have an image on paper, which is easier for my 
+brain.
 
 
 What is the result of merging two branches together? Why do we represent it in
@@ -40,3 +51,11 @@ the diagram the way we do?
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+
+
+git init
+git add
+git status
+staging area
+working directory
