@@ -46,7 +46,11 @@ brain.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+They take the name of the working directory (and merge with the WD, if we chose 2 other branches), 
+and have all the changes that each branch made, based on comparisons with each other and the code 
+from the split point.
 
+How else would we represent it?
 
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
@@ -57,5 +61,7 @@ manually?
 git init
 git add
 git status
-staging area
-working directory
+git show
+git merge
+git branch
+
