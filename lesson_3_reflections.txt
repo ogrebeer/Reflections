@@ -37,9 +37,10 @@ and what would be harder?
  online master when a change is complete.  This would suck, because then each person would
  have to keep downloading the new stuffs to make sure their working copy is up to date.
  Also, this would have only manual merging.
- 
+
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+Allows experimentation and feature implementation without risking breaking the master
+branch (the live version doesn't change).
