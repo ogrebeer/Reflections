@@ -26,7 +26,7 @@ ready for the world to use
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-I have no idea.
+So I can manually merge conflicts locally without corrupting the entire origin/master branch
 
 
 
