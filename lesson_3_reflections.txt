@@ -9,7 +9,10 @@ will benefit from a central storage location
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+Anytime someone commits a change and pushes it to the remote, it would then have to reconcile
+the changes with all the local repositories, and this may be while people are working on things,
+potentially breaking them.
+
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
