@@ -56,6 +56,15 @@ How else would we represent it?
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
 
+Auto merge can merge things when they don't really work, so it throws errors fairly liberally, we 
+hope, to compensate.  Manual merges are massive consumers of time, but may have fewer errors (ppl 
+still make mistakes).
+
+
+
+
+
+
 
 
 git init
